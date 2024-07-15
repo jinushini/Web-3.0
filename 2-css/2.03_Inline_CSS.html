@@ -20,14 +20,21 @@
 
             #first-section {
                 color: yellow;
-                background-color: black;
-                width: 1000px;
+                background-color: #C6634E  ;
+                width: 200px;
+                float: right;
             }
             #second-section {
                 
                 background-color: blue;
+                width: 200px;
+                float: left;
                 
             }
+            .clear-float {
+                clear: both;
+            }
+
         </style>
 
     </head>
@@ -47,8 +54,13 @@
         <p class="large">Wow I love internal CSS!</p>
 
         <p id="blue">This is a paragraph with an ID of blue.<span class="underlined red">and this text is underlined.</span></p>
-        </div>
+
         <h1 class="red">CSS is cool!</h1>
+    </div>
+    <div class="clear-float">
+        <p>This is not floating</p>
+    </div>
+  
     </body>
 
 </html>
