@@ -4,15 +4,51 @@
     <head>
 
         <title>Webpage With Style</title>
+        <style type="text/css">
+            .red {
+                color: red;
+            }
+            .large {
+                font-size: 30px;
+            }
+            #blue {
+                color: blue;
+            }
+            .underlined {
+                text-decoration: underline;
+            }
+
+            #first-section {
+                color: yellow;
+                background-color: black;
+                width: 1000px;
+            }
+            #second-section {
+                
+                background-color: blue;
+                
+            }
+        </style>
 
     </head>
 
     <body>
-
-        <p style="color:blue;font-size:200%">The quick brown fox jumped over the lazy dog.</p>
+        <div id="first-section">
+        <p>
+            This is a paragraph in the first section.
+        </p>
+        <p>
+            This is another paragraph in the first section.
+        </p>
+        </div>
+        <div id="second-section">
+        <p class="red large">The quick brown fox over the lazy dog.</p>
         
+        <p class="large">Wow I love internal CSS!</p>
 
-        <h1 style="color:green;font-size:250%">CSS is cool!</h1>
+        <p id="blue">This is a paragraph with an ID of blue.<span class="underlined red">and this text is underlined.</span></p>
+        </div>
+        <h1 class="red">CSS is cool!</h1>
     </body>
 
 </html>
